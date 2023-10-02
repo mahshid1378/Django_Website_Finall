@@ -1,2 +1,6 @@
-# Django_Website_Finall
-This website is an article about silicon. Users can add, edit and delete their own articles. Also, ordinary people can visit the website and use its contents.
+```cp .env-sample .env
+virtualenv .venv
+source .venv/bin/activate
+pip install -r requirements.txt
+cp .env-sample .env
+./manage.py runserver
